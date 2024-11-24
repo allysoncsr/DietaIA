@@ -16,5 +16,4 @@ export async function routes(fastify: FastifyInstance, options: FastifyPluginOpt
 
         reply.send({ok: true})
     })
-
 }
